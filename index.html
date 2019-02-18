@@ -1,76 +1,104 @@
 <!DOCTYPE html>
+<html>
 	<head>
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
 
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 	</head>
+	<div class="container">
 	<body>
+
 		<header>
+
 			<div class="wrapper">
+					<div class="row">
+
+				<div class="col-sm-2">				
+
 				<div class="logo-search">
-					<img class="pull-left" src="img/logo.png" />
-				</div>
-
-				<form method="POST" action="index.html">
-					<input type="search" required class="search">
-					<input type="submit" name="submit" value="Rechercher" class="submit">
-				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
-				</div>
-			</div>
-		</header>
-		<aside>
-			<h3>Browse</h3>
-			<nav class="browse">
-				<ul class="main">
-					<li><a class="heavy" href="#">Heavy Rotation</a></li>
-					<li><a class="recent" href="#">Recent Activity</a></li>
-					<li><a class="top" href="#">Top Charts</a></li>
-					<li><a class="new" href="#">New Releases</a></li>
-				</ul>
-			</nav>
-			<h3>Your music</h3>
-			<nav class="music">
-				<ul class="main">
-					<li><a class="collection" href="#">Collection</a></li>
-					<li><a class="history" href="#">History</a></li>
-				</ul>
-			</nav>
-		</aside>
-
-		<main>
-			<header>
-				<div class="name-photo">
-					<aside>
-						<img src="img/artist.png" />
-					</aside>
-					<div class="name">
-						<h1>Luke Chesser</h1>
-						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+					<img class="pull-left" src="img/logo.png"/>
 					</div>
+				</div>	
+				<div class="col-sm-3">				
+
+						<form method="POST" action="index.html">
+							<input type="search" required class="search"  class="container">
+							<input type="submit" name="submit" value="Rechercher" class="submit">
 				</div>
-				<div class="stats-links">
-					<section class="stats">
-						<span>2 Playlists</span>
-						<span>4 Reviews</span>
-						<span>6 Followers</span>
-						<span>13 Following</span>
-					</section>
-					<div class="links">
-						<div>
-							<a href="#">Collection</a>
-							<a href="#">History</a>
+				<div class="col-sm-7">						
+						</form>
+						<div class="user">
+							<a href="#">Luke Chesser</a>
+						</div>
+				</div>		
+	
+			</div>	
+			</div>	
+		</header>
+			
+
+
+	<div class="row">
+		<div class="col-sm-2">
+				<aside class="d-none d-lg-block d-xl-block">
+						<h3>Browse</h3>
+							<nav class="browse">
+								<ul class="main">
+									<li><a class="heavy" href="#">Heavy Rotation</a></li>
+									<li><a class="recent" href="#">Recent Activity</a></li>
+									<li><a class="top" href="#">Top Charts</a></li>
+									<li><a class="new" href="#">New Releases</a></li>
+								</ul>
+							</nav>
+							<h3>Your music</h3>
+								<nav class="music">
+								<ul class="main">
+							<li><a class="collection" href="#">Collection</a></li>
+						<li><a class="history" href="#">History</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</div>
+	<div class="col-sm-10">				
+		<main>
+			<div class="row">				
+				<header>
+					<div class="name-photo">
+						<aside>
+							<img src="img/artist.png" />
+						</aside>
+						<div class="name">
+							<h1>Luke Chesser</h1>
+							<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 						</div>
 					</div>
-				</div>
-			</header>
+					<div class="stats-links">
+						<section class="stats">
+							<span>2 Playlists</span>
+							<span>4 Reviews</span>
+							<span>6 Followers</span>
+							<span>13 Following</span>
+						</section>
+						<div class="links">
+							<div>
+								<a href="#">Collection</a>
+								<a href="#">History</a>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
 			<h2>Top Album</h2>
 			<div>
 				<a class="station" href="#">Start Station</a>
 			</div>
+		<div class="row">
+			<div class="col-xs-2">
 			<section id="albums">
 				<article>
 					<figure>
@@ -153,6 +181,13 @@
 					<div class="count">13 songs</div>
 				</article>
 			</section>
+		</div>
+	</div>
 		</main>
-	</body>
+	</div>	
+	</div>
+
+		</body>
+	</div>
+
 </html>

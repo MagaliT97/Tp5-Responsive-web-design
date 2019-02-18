@@ -1,4 +1,4 @@
-## **TP Responsive Web Design**
+## **TP Responsive Web Design Magali Treuvelot**
 
 ![](img/exemple.gif)
 
