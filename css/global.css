@@ -13,7 +13,7 @@
 @media screen and (max-width:1440px)
 {
     * {
-        font-size: 1.5em;
+        font-size: 1.1em;
      }
 }
 
@@ -168,6 +168,7 @@ header form {
     }
 }
 
+
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
@@ -244,6 +245,19 @@ nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
 }
+
+@media screen and (min-width:800px)
+{
+    div.links {
+        float: right;
+
+    }
+
+    
+}
+
+
+
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
